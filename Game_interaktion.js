@@ -739,7 +739,7 @@ function render(){
 
    if(Math.abs(tim.position[0]-pac.position[0]) < 50 && Math.abs(tim.position[1]-pac.position[1]) < 50 ){tim.hurt(0.7); console.log("hab dich")};
    if(Math.abs(tim.position[0]-pac2.position[0]) < 50 && Math.abs(tim.position[1]-pac2.position[1]) < 50 ){tim.hurt(0.7); console.log("hab dich")};
-   if(Math.abs(tim.position[0]-dog.position[0]) < 50 && Math.abs(tim.position[1]-dog.position[1]) < 50 ){tim.hurt(0); console.log("hab dich")}; // 1.1
+   if(Math.abs(tim.position[0]-dog.position[0]) < 50 && Math.abs(tim.position[1]-dog.position[1]) < 50 ){tim.hurt(1.1); console.log("hab dich")}; // 1.1
    if(Math.abs(parseInt(bullet.style.top)-dog.position[0]) < dog.html.offsetHeight && Math.abs(parseInt(bullet.style.left)-dog.position[1]) < dog.html.offsetWidth ){
       dog_hit +=1; console.log("dog abgeschossen");
       };
@@ -1053,3 +1053,4 @@ tutorial().then(msg => {
   console.log(msg);
   requestAnimationFrame(loop);
 });
+
