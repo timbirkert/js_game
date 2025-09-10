@@ -903,7 +903,9 @@ function loop(timestamp){
          
       }; 
 
-      if(timestamp-runtime>150 && !dog_freeze){rechts_dog++; runtime = timestamp}  // animation verlangsamen
+      if(timestamp-runtime>150){rechts_dog++; runtime = timestamp;
+         if(dog_freeze){rechts_dog--}
+      }  // animation verlangsamen
 
       //laufen
       if(elapsed_bossfight_no_shiver > sitTime){
@@ -934,3 +936,4 @@ function loop(timestamp){
 }
 
 requestAnimationFrame(loop);
+
