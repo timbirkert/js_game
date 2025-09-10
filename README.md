@@ -8,6 +8,6 @@ Don`t let the pac man eat you and be aware of big shadow dogs!!
 
 <img src="read_me_img/boss_fight.png" alt="Bossfight Screenshot" width="400">
 
-[Click here to play](https://deinname.github.io/deinspiel/)
+[Click here to play]((https://timbirkert.github.io/js_game/))
 
 
