@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game_design.css">
+</head>
+<body>
+
+    <div id="hud">
+        <div id="level-display">
+            <h2 id = "Level">Level: 1</h2>
+        </div>
+        <div id="xp-bar"> 
+        <div id="xp-fill"> </div>
+        </div>
+
+        <div id="hp-container"> 
+        <div id="hp-fill"> <h2 id = "HP">HP</h2> </div>
+  </div>
+
+   </div>
+
+    <div id = "game1">
+       <div id = "game2"></div> 
+       <div ><img id = "pac"  src="images/pacman.png"></div>
+       <div ><img id = "pac2"  src="images/pacman.png"></div>
+       <div id = "tim"></div>
+       <canvas id="dogus"></canvas>
+       <div id = "dog"></div>
+       <div id="dog_bar">
+         <div id="dog-health-fill"></div>
+        </div>
+
+       <div ><img id = "bomb" src="images/bomb.png"></div>
+       <canvas id ="explosion"></canvas>
+       <canvas id ="main_character"></canvas>
+       <canvas id ="bullet"></canvas>
+     </div>
+     <div id="special-button">
+        <div class="overlay"></div>
+    </div>
+
+    <div id="fullscreen-overlay"></div>
+
+        
+
+
+     <script src=Game_interaktion.js></script>
+</body>
+</html>
